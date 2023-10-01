@@ -8,10 +8,7 @@ public class problem4 extends SuperKarel {
 			pickBeeper();}
 		while (frontIsClear()) {
 			putBeeper();
-			move();
-		}
+			move();}
 		}
 
-	}
-	
-}
+	}	
