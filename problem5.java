@@ -20,6 +20,7 @@ public class problem5 extends SuperKarel {
 			while (rightIsBlocked()) {
 				move();
 			}
+			turnLeft();
 		}
 		public void decend() {
 			turnRight();
