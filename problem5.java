@@ -11,7 +11,6 @@ public class problem5 extends SuperKarel {
 	}
 		public void jump() {
 			accend();
-			turnRight();
 			move();
 			decend();
 		 }
@@ -20,6 +19,7 @@ public class problem5 extends SuperKarel {
 			while (rightIsBlocked()) {
 				move();
 			}
+			turnRight();
 	
 		}
 		public void decend() {
@@ -30,7 +30,6 @@ public class problem5 extends SuperKarel {
 			
 				
 		}
-		public void	
 		}
 			
 		
