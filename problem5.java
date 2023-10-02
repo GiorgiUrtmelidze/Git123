@@ -8,7 +8,12 @@ public class problem5 extends SuperKarel {
 			jump();
 			}
 		}
-	}
+		turnLeft();
+		while (frontIsClear()) {
+			move();
+		}
+		}
+	
 		public void jump() {
 			accend();
 			move();
