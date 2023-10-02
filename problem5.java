@@ -26,10 +26,11 @@ public class problem5 extends SuperKarel {
 			turnRight();
 			while (frontIsClear()) {
 				move();
+				
 			
 				
 		}
-				
+		public void	
 		}
 			
 		
