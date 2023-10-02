@@ -8,7 +8,12 @@ public class problem5 extends SuperKarel {
 			jump();
 			}
 		}
-		turnLeft();
+		if (frontIsBlocked()) {
+			turnLeft();
+		
+		}
+		
+	
 		while (frontIsClear()) {
 			move();
 		}
