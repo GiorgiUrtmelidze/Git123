@@ -12,6 +12,7 @@ public class problem5 extends SuperKarel {
 		public void jump() {
 			accend();
 			turnRight();
+			move();
 			decend();
 		 }
 		public void accend() {
