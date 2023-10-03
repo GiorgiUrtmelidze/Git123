@@ -6,7 +6,7 @@ import stanford.karel.SuperKarel;
  */
 public class problem6 extends SuperKarel {
 	public void run() {
-		move();
+	
 		move();
 		take1();
 		move();
