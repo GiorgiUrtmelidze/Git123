@@ -30,4 +30,3 @@ public class problem6 extends SuperKarel {
 		}
 	}
 	
-}
