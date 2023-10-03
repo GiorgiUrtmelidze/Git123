@@ -10,7 +10,7 @@ public class problem6 extends SuperKarel {
 		move();
 		take1();
 		move();
-
+		take2();
 		move();
 		
 	}
@@ -28,5 +28,20 @@ public class problem6 extends SuperKarel {
 			turnLeft();
 		}
 		}
+	public void take2() {
+		while (beepersPresent()) {
+			pickBeeper();
+			move();
+			putBeeper();
+			turnLeft();
+			turnLeft();
+			move();
+			turnLeft();
+			turnLeft();
+			
+		}
+		
 	}
+	}
+
 	
