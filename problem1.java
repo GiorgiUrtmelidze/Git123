@@ -5,12 +5,39 @@ import stanford.karel.*;
  */
 public class problem1 extends SuperKarel {
 	public void run() {
-		while (frontIsClear()) {
-			if (noBeepersPresent()) {
-			putBeeper();
-			}
+		fillLine();
+		turnaround();
+		moveup();
+	}
+	
+
+	private void moveup() {
+		turnRight();
+		if (frontIsClear()) {
+			
 		}
 		
+		
+	}
+
+
+	private void turnaround() {
+		turnLeft();
+		turnLeft();
+		while (frontIsClear()) {
+			move();
+		}
+	}
+
+
+	private void fillLine() {
+		while (frontIsClear()) {
+			if (noBeepersPresent()) {
+				putBeeper();
+			}
+			move();
+		}
 	}
 	
 }
+	
