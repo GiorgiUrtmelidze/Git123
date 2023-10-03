@@ -10,7 +10,7 @@ public class problem1 extends SuperKarel {
 		pickBeeper();
 		move();
 		putBeeper();
-		
+		jjj
 	}
 	
 }
