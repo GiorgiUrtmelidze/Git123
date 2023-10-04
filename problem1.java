@@ -13,7 +13,11 @@ public class problem1 extends SuperKarel {
 
 	private void moveup() {
 		turnRight();
+		turnRight();
+		
 		if (frontIsClear()) {
+			move();
+			turnRight();
 			
 		}
 		
