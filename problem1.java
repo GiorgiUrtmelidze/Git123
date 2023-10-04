@@ -5,21 +5,20 @@ import stanford.karel.*;
  */
 public class problem1 extends SuperKarel {
 	public void run() {
+		while (frontIsClear()) { 
 		fillLine();
 		turnaround();
-		moveup();
+		if (frontIsClear()) {
+			moveup();
+		}
+		}
 	}
 	
 
 	private void moveup() {
-		turnRight();
-	
 		
-		if (frontIsClear()) {
-			move();
-			turnRight();
-			
-		}
+		move();
+		turnRight();
 		
 		
 	}
@@ -31,6 +30,7 @@ public class problem1 extends SuperKarel {
 		while (frontIsClear()) {
 			move();
 		}
+		turnRight();
 	}
 
 
