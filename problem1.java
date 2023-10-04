@@ -48,5 +48,5 @@ public class problem1 extends SuperKarel {
 		}
 	}
 	
-}
+
 	
