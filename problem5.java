@@ -19,17 +19,17 @@ public class problem5 extends SuperKarel {
 		
 	}
 	private void fillLine() {
+		putBeeper();
+		move();
 		while (frontIsClear()) {
-			putBeeper();
 			move();
+			putBeeper();
 			if (frontIsClear()) {
 				move();
 			}
+			
 		}
-			if (frontIsBlocked()) {
-				putBeeper();
-			}
-		}
+	}
 	 
 		private void goBack() {
 		 turnAround();
