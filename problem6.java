@@ -6,8 +6,9 @@ public class problem6 extends SuperKarel {
 	public void run() {
 		fillLine();
 		turnAround();
+		takeBeepersFromEachSideFirst();
 		while (beepersPresent()) {
-		takeBeeperFromEachSide();
+		takeBeepersFromEachSideSecond();
 		}
 	}
 	private void fillLine() {
@@ -17,7 +18,7 @@ public class problem6 extends SuperKarel {
 			putBeeper();
 		}
 	}
-	private void takeBeeperFromEachSide() {
+	private void takeBeepersFromEachSideFirst() {
 		pickBeeper();
 		while (frontIsClear()) {
 			move();
@@ -25,7 +26,9 @@ public class problem6 extends SuperKarel {
 		pickBeeper();
 		turnAround();
 		move();
+	}
 		
+		private void takeBeepersFromEachSideSecond() {
 		while (beepersPresent()) {
 			move();
 		}
