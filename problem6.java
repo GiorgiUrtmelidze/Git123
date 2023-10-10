@@ -6,8 +6,9 @@ public class problem6 extends SuperKarel {
 	public void run() {
 		fillLine();
 		turnAround();
+		while (beepersPresent()) {
 		takeBeeperFromEachSide();
-		stop();
+		}
 	}
 	private void fillLine() {
 		putBeeper();
