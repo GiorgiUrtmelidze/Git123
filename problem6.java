@@ -11,6 +11,7 @@ public class problem6 extends SuperKarel {
 		takeBeepersFromEachSideSecond();
 		}
 		turnAround();
+		move();
 		putBeeper();
 	}
 	private void fillLine() {
