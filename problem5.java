@@ -13,6 +13,10 @@ public class problem5 extends SuperKarel {
 		move();
 		fillLine();
 		goBack();
+		if (frontIsClear()) {
+			move();
+			turnRight();
+		}
 		}
 	}
 		
