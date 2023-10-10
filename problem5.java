@@ -1,50 +1,27 @@
 import stanford.karel.SuperKarel;
+/*
+ *  
+ */
 public class problem5 extends SuperKarel {
 	public void run() {
-		for (int i = 0; i < 9; i++) {
-			if (frontIsClear()) {
-			move();
-		} else {
-			jump();
-			}
-		}
-		if (frontIsBlocked()) {
-			turnLeft();
+		fillLine();
+		goBack();
+		goUp();
 		
-		}
 		
-	
+	}
+	private void fillLine() {
 		while (frontIsClear()) {
+			putBeeper();
 			move();
-		}
-		}
-	
-		public void jump() {
-			accend();
-			move();
-			decend();
-		 }
-		public void accend() {
-			turnLeft();
-			while (rightIsBlocked()) {
+			if (frontIsClear()) {
 				move();
 			}
-			turnRight();
+			
+		}
+	}
 	
-		}
-		public void decend() {
-			turnRight();
-			while (frontIsClear()) {
-				move();
-			}
-		turnLeft();
-		}
-				
-			
-				
-		
-		}
-			
+}
 		
 		
 
