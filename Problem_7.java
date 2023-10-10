@@ -11,6 +11,7 @@ public class Problem_7 extends GraphicsProgram {
 		
 		GOval secondOval = new GOval (350, 350);
 		add(secondOval, 200, 101);
+		secondOval.setFilled(true);
 		
 	}
 }
