@@ -5,6 +5,7 @@ import stanford.karel.SuperKarel;
 public class problem6 extends SuperKarel {
 	public void run() {
 		fillLine();
+		turnAround();
 		takeBeeperFromEachSide();
 		stop();
 	}
@@ -16,7 +17,6 @@ public class problem6 extends SuperKarel {
 		}
 	}
 	private void takeBeeperFromEachSide() {
-		turnAround();
 		pickBeeper();
 		while (frontIsClear()) {
 			move();
