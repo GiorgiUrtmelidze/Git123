@@ -17,6 +17,7 @@ public class Problem_7 extends GraphicsProgram {
 		secondOval.setFilled(true);
 		secondOval.setColor(Color.cyan);
 		myOval.setColor(Color.red);
+		myOval.setFilled(true);
 		
 		
 		
