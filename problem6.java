@@ -10,6 +10,8 @@ public class problem6 extends SuperKarel {
 		while (beepersPresent()) {
 		takeBeepersFromEachSideSecond();
 		}
+		turnAround();
+		putBeeper();
 	}
 	private void fillLine() {
 		putBeeper();
