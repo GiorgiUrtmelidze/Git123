@@ -10,7 +10,7 @@ public class Problem_7 extends GraphicsProgram {
 		add(myOval, 100 ,200);
 		
 		GOval secondOval = new GOval (350, 350);
-		add(secondOval, 200, 200);
+		add(secondOval, 200, 101);
 		
 	}
 }
