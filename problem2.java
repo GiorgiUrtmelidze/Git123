@@ -1,6 +1,6 @@
 import stanford.karel.SuperKarel;
 /*
- *  
+ *  pickbeeper
  */
 public class problem2 extends SuperKarel {
 	public void run() {

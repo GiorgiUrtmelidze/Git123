@@ -1,6 +1,6 @@
 import stanford.karel.SuperKarel;
 /*
- *  
+ *  Chess
  */
 public class problem5 extends SuperKarel {
 	public void run() {

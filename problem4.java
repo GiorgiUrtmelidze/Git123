@@ -1,6 +1,6 @@
 import stanford.karel.SuperKarel;
 /*
- *  
+ *  Archs
  */
 public class problem4 extends SuperKarel {
 	public void run() {
