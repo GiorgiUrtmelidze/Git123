@@ -13,6 +13,9 @@ public class problem6 extends SuperKarel {
 		turnAround();
 		move();
 		putBeeper();
+		if (leftIsBlocked()) {
+			turnAround();
+		}
 	}
 	private void fillLine() {
 		putBeeper();
