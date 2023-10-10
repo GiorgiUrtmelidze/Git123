@@ -4,6 +4,10 @@ import stanford.karel.SuperKarel;
  */
 public class problem5 extends SuperKarel {
 	public void run() {
+		if (frontIsBlocked()) {
+			turnLeft();
+			fillLine();
+		}
 		while (frontIsClear()) {
 		fillLine();
 		goBack();
