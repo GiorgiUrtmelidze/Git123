@@ -16,6 +16,9 @@ public class problem5 extends SuperKarel {
 			if (frontIsClear()) {
 				move();
 			}
+			if (frontIsBlocked()) {
+				putBeeper();
+			}
 			
 		}
 	}
