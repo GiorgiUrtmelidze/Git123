@@ -36,6 +36,7 @@ public class Problem_7 extends GraphicsProgram {
 		add(line7);
 		
 		rectangle.setColor(Color.orange);
+		rectangle.setFilled(true);
 		
 		
 		
