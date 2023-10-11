@@ -25,6 +25,8 @@ public class Problem_7 extends GraphicsProgram {
 		
 		GLine line4 = new GLine (480,480,530,480);
 		add(line4);
+		GLine line5 = new GLine (505,480,505,535);
+		add(line5);
 		
 		
 		
