@@ -1,4 +1,7 @@
 import acm.program.GraphicsProgram;
+
+import java.awt.Color;
+
 import acm.graphics.*;
 /*
  *  
@@ -31,6 +34,8 @@ public class Problem_7 extends GraphicsProgram {
 		add(line6);
 		GLine line7 = new GLine (795,480,795,535);
 		add(line7);
+		
+		rectangle.setColor(Color.orange);
 		
 		
 		
