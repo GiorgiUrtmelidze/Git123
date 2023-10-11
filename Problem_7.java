@@ -41,6 +41,8 @@ public class Problem_7 extends GraphicsProgram {
 		window1.setFilled(true);
 		window2.setColor(Color.cyan);
 		window2.setFilled(true);
+		door.setColor(Color.red);
+		door.setFilled(true);
 		
 		
 		
