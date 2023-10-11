@@ -43,6 +43,7 @@ public class Problem_7 extends GraphicsProgram {
 		window2.setFilled(true);
 		door.setColor(Color.red);
 		door.setFilled(true);
+		(line1, line2, line3).setColor(Color.gray);
 		
 		
 		
