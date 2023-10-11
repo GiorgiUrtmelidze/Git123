@@ -20,6 +20,7 @@ public class Problem_7 extends GraphicsProgram {
 		
 		GRect window = new GRect (50, 90);
 		add(window, 480,445);
+		add(window, 770, 445);
 		
 		
 	}
