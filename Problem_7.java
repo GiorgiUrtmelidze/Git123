@@ -23,7 +23,7 @@ public class Problem_7 extends GraphicsProgram {
 		GRect window2 = new GRect (50, 90);
 		add(window2, 770, 445);
 		
-		GLine line4 = new GLine (480,520,530,520);
+		GLine line4 = new GLine (480,470,530,470);
 		add(line4);
 		
 		
