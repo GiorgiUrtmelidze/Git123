@@ -14,5 +14,10 @@ public class Problem_7 extends GraphicsProgram {
 		add(line2);
 		GLine line3 = new GLine (360,400,940,400);
 		add(line3);
+		
+		GRect door = new GRect (8,100);
+		add(door, 646, 500);
+		
+		
 	}
 }
