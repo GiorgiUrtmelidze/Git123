@@ -37,6 +37,8 @@ public class Problem_7 extends GraphicsProgram {
 		
 		rectangle.setColor(Color.orange);
 		rectangle.setFilled(true);
+		window1.setColor(Color.cyan);
+		
 		
 		
 		
