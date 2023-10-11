@@ -10,5 +10,7 @@ public class Problem_7 extends GraphicsProgram {
 		
 		GLine line = new GLine (360,400,650,300);
 		add(line);
+		GLine line2 = new GLine (650,300,960,400);
+		add(line2);
 	}
 }
