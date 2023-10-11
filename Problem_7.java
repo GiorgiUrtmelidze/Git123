@@ -29,7 +29,7 @@ public class Problem_7 extends GraphicsProgram {
 		add(line5);
 		GLine line6 = new GLine (770,480,820,480);
 		add(line6);
-		GLine line7 = new GLine (795,480,505,535);
+		GLine line7 = new GLine (795,480,795,535);
 		add(line7);
 		
 		
