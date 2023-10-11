@@ -6,6 +6,6 @@ import acm.graphics.*;
 public class Problem_7 extends GraphicsProgram {
 	public void run() {
 		GRect rectangle = new GRect(500, 200);
-		add(rectangle, 500,500);
+		add(rectangle, 400,400);
 	}
 }
