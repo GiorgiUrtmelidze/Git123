@@ -10,7 +10,15 @@ import acm.program.*;
 public class ConsoleProgrammSample extends ConsoleProgram {
 
 	public void run() {
-		// You fill this in
+	int a = 5;
+	a = a + 5;
+	
+	if(2 == 2){
+		double b = 3;
+		b = 4;
+		b = a + 3;
+		
+	}
 	}
 
 }
