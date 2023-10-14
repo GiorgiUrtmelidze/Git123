@@ -1,36 +1,40 @@
 import stanford.karel.SuperKarel;
 
-public class problem2 extends SuperKarel {
-//	
-//	1.Go Out
-//	2. Pick Beeper
-//	3. Get Inside
-//	
+public class problem4 extends SuperKarel {
+//Fill Line
+//Go Down
+//Go To The Other Arch If Exists
+//Repeat If Possible
 	public void run() {
-		goOut();
-		pickBeeper();
-		getInside();
-		
+	  while (frontIsClear()) {
+		  fillLine();
+		  goDown();
+		  for (int i = 0; i < 4; i++) {
+			  move();
+		  }
+	  }
+	  fillLine();
+	  goDown();
 	}
-	private void goOut() {
+	private void fillLine() {
+		turnLeft();
+		if (noBeepersPresent()) {
+		   putBeeper();
+		}
 		while (frontIsClear()) {
 			move();
+			if (noBeepersPresent()) {		                       
+			 putBeeper();
+			}
 		}
-		turnRight();
-		move();
-		turnLeft();
-		move();
 	}
-	private void getInside() {
+	private void goDown() {
 		turnAround();
-		move();
-		turnRight();
-		move();
-		turnLeft();
 		while (frontIsClear()) {
 			move();
-		}
-		turnAround();
+					}
+		turnLeft();
+	
 	}
 	
 }
