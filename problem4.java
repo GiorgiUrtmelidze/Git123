@@ -1,8 +1,10 @@
 import stanford.karel.SuperKarel;
-/*
- *  Archs
- */
+
 public class problem4 extends SuperKarel {
+//Fill Line
+//Go Down
+//Go To The Other Arch If Exists
+//Repeat If Possible
 	public void run() {
 	  while (frontIsClear()) {
 		  fillLine();
