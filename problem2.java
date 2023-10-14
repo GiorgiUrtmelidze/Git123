@@ -1,0 +1,40 @@
+import stanford.karel.SuperKarel;
+
+public class problem2 extends SuperKarel {
+//Fill Line
+//Go Down
+//Go To The Other Arch If Exists
+//Repeat If Possible
+	public void run() {
+	  while (frontIsClear()) {
+		  fillLine();
+		  goDown();
+		  for (int i = 0; i < 4; i++) {
+			  move();
+		  }
+	  }
+	  fillLine();
+	  goDown();
+	}
+	private void fillLine() {
+		turnLeft();
+		if (noBeepersPresent()) {
+		   putBeeper();
+		}
+		while (frontIsClear()) {
+			move();
+			if (noBeepersPresent()) {		                       
+			 putBeeper();
+			}
+		}
+	}
+	private void goDown() {
+		turnAround();
+		while (frontIsClear()) {
+			move();
+					}
+		turnLeft();
+	
+	}
+	
+}
