@@ -1,53 +1,40 @@
 import stanford.karel.SuperKarel;
 
-public class problem6 extends SuperKarel {
-	
-//	Karel Will Fill First Line Totally. Then It Will Pick Up One Beeper
-//	From Each Side Constantly
-//	(Firstly From Left Side And Then From The Other Side).
-//	
-//	Karel Will Stop When It Will Stand Exactly In The Midlle
-//	Or In One Of 2 Blocks Which Are In The Middle
-	
+public class problem2 extends SuperKarel {
+//Fill Line
+//Go Down
+//Go To The Other Arch If Exists
+//Repeat If Possible
 	public void run() {
-		fillLine();
-		turnAround();
-		takeBeepersFromEachSideFirst();
-		while (beepersPresent()) {
-		takeBeepersFromEachSideSecond();
-		}
-		turnAround();
-		move();
-		putBeeper();
-		if (leftIsBlocked()) {
-			turnAround();
-		}
+	  while (frontIsClear()) {
+		  fillLine();
+		  goDown();
+		  for (int i = 0; i < 4; i++) {
+			  move();
+		  }
+	  }
+	  fillLine();
+	  goDown();
 	}
 	private void fillLine() {
-		putBeeper();
+		turnLeft();
+		if (noBeepersPresent()) {
+		   putBeeper();
+		}
 		while (frontIsClear()) {
 			move();
-			putBeeper();
+			if (noBeepersPresent()) {		                       
+			 putBeeper();
+			}
 		}
 	}
-	private void takeBeepersFromEachSideFirst() {
-		pickBeeper();
+	private void goDown() {
+		turnAround();
 		while (frontIsClear()) {
 			move();
-		}
-		pickBeeper();
-		turnAround();
-		move();
-	}
-		
-		private void takeBeepersFromEachSideSecond() {
-		while (beepersPresent()) {
-			move();
-		}
-		turnAround();
-		move();
-		pickBeeper();
-		move();
-	}
-}
+					}
+		turnLeft();
 	
+	}
+	
+}
