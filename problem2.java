@@ -1,8 +1,11 @@
 import stanford.karel.SuperKarel;
-/*
- *  pickbeeper
- */
+
 public class problem2 extends SuperKarel {
+//	
+//	1.Go Out
+//	2. Pick Beeper
+//	3. Get Inside
+//	
 	public void run() {
 		goOut();
 		pickBeeper();

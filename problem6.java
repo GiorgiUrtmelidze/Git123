@@ -1,8 +1,14 @@
 import stanford.karel.SuperKarel;
-/*
- *  
- */
+
 public class problem6 extends SuperKarel {
+	
+//	Karel Will Fill First Line Totally. Then It Will Pick Up One Beeper
+//	From Each Side Constantly
+//	(Firstly From Left Side And Then From The Other Side).
+//	
+//	Karel Will Stop When It Will Stand Exactly In The Midlle
+//	Or In One Of 2 Blocks Which Are In The Middle
+	
 	public void run() {
 		fillLine();
 		turnAround();
