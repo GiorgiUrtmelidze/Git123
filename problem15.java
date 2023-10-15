@@ -6,7 +6,6 @@ public class problem15 extends ConsoleProgram {
 		println("Hello");
 		int numberOne = readInt("Enter First Number: ");
 		int numberSecond = readInt("Enter Second Number: ");
-		double x = 0.5;
 		int total = ((numberOne + numberSecond)/2 );
 		double y = total + 0.5;
 		if (numberOne%2==0 && numberSecond%2==0) {
