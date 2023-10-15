@@ -6,35 +6,15 @@ public class problem2 extends SuperKarel {
 //Go To The Other Arch If Exists
 //Repeat If Possible
 	public void run() {
-	  while (frontIsClear()) {
-		  fillLine();
-		  goDown();
-		  for (int i = 0; i < 4; i++) {
-			  move();
-		  }
+	  for (int i = 0; i < 4; i++) {
+		  move();		  
 	  }
-	  fillLine();
-	  goDown();
-	}
-	private void fillLine() {
-		turnLeft();
-		if (noBeepersPresent()) {
-		   putBeeper();
-		}
-		while (frontIsClear()) {
-			move();
-			if (noBeepersPresent()) {		                       
-			 putBeeper();
-			}
-		}
-	}
-	private void goDown() {
-		turnAround();
-		while (frontIsClear()) {
-			move();
-					}
-		turnLeft();
-	
+	  turnLeft();
+	  for (int i = 0; i <5; i++) {
+		  move();
+		  putBeeper();
+	  }
+	  
 	}
 	
 }
