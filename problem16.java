@@ -9,8 +9,6 @@ public class problem16 extends ConsoleProgram {
 	double x = (first)*(second)*(third);
 	double y = (first)*(second) + (first)*(third) + (second)*(third);
 	println("Your Number Is " + x/y + ".");
-	println(x);
-	println(y);
 	
 	
 	}	
