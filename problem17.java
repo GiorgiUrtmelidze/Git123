@@ -8,7 +8,7 @@ public class problem17 extends ConsoleProgram {
 			println("0 and x");
 		}
 		if (x > 1) {
-			for ( double x = x; x > 1; x-- );
+			for ( x > 1; x-- );
 			print(x);
 		}
 		}	
