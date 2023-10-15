@@ -1,6 +1,6 @@
 import acm.program.ConsoleProgram;
 
-public class problem16 extends ConsoleProgram {
+public class problem17 extends ConsoleProgram {
 
 	public void run() {
 	int first = readInt("Enter first number: ");
