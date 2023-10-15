@@ -8,11 +8,10 @@ public class problem16 extends ConsoleProgram {
 	int third = readInt("Enter third number: ");
 	int x = (first)*(second)*(third);
 	int y = (first)*(second) + (first)*(third) + (second)*(third);
-	double total = x/y;
-	println("Your Number Is " + total + ".");
+	println("Your Number Is " + x/y + ".");
 	println(x);
 	println(y);
-	println(total);
+	
 	
 	}	
 
