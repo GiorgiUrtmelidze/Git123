@@ -49,6 +49,8 @@ public class problem2 extends SuperKarel {
 	  turnLeft();
 	  move();
 	  putBeeper();
+	  move();
+	  turnLeft();
 	  
 	}
 	private void fillLine() {
