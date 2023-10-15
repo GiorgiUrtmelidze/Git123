@@ -28,8 +28,11 @@ public class problem2 extends SuperKarel {
 	  for (int i = 0; i < 3; i++) {
 		  fillLine();		  
 	  }
-	  turnRight();
 	  move();
+	  for (int i = 0; i < 5; i++) {
+	putBeeper();
+	move();
+	  }
 	  
 	}
 	private void fillLine() {
