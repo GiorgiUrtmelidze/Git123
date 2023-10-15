@@ -7,12 +7,12 @@ public class problem15 extends ConsoleProgram {
 		int numberOne = readInt("Enter First Number: ");
 		int numberSecond = readInt("Enter Second Number: ");
 		double x = 0.5;
-		double total = ((numberOne + numberSecond)/2 + x);
+		double total = ((numberOne + numberSecond)/2 );
+		double y = total + 0.5;
 		if (numberOne%2==0 && numberSecond%2==0) {
-		x = 0;
 		println("The answer is ->" + total + "."); 
 		} else {
-			println("The answer is ->" + total  + ".");
+			println("The answer is ->" + y + ".");
 		}
 		
 	
