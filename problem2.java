@@ -33,6 +33,22 @@ public class problem2 extends SuperKarel {
 	putBeeper();
 	move();
 	  }
+	  turnAround();
+	  move();
+	  move();
+	  turnRight();
+	  move();
+	  putBeeper();
+	  turnLeft();
+	  move();
+	  putBeeper();
+	  move();
+	  putBeeper();
+	  turnAround();
+	  move();
+	  turnLeft();
+	  move();
+	  putBeeper();
 	  
 	}
 	private void fillLine() {
