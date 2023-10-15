@@ -12,6 +12,7 @@ public class problem16 extends ConsoleProgram {
 	println("Your Number Is " + total + ".");
 	println(x);
 	println(y);
+	println(total);
 	
 	}	
 
