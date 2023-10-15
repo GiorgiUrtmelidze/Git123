@@ -38,6 +38,16 @@ public class problem2 extends SuperKarel {
 			move();
 			putBeeper();
 		}
+			turnAround();
+			for (int i = 0; i < 6; i++) {
+				move();
+			}
+			turnRight();
+			move();
+			turnRight();
+			
+			
+		
 	}
 	
 }
