@@ -7,7 +7,7 @@ public class problem15 extends ConsoleProgram {
 		int numberOne = readInt("Enter First Number: ");
 		int numberSecond = readInt("Enter Second Number: ");
 		int total = (numberOne + numberSecond)/2;
-		println(total);
+		println("The answer is ->" + total + "."); 
 	
 	}
 
