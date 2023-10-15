@@ -6,8 +6,8 @@ public class problem16 extends ConsoleProgram {
 	int first = readInt("Enter first number: ");
 	int second = readInt("Enter second number: ");
 	int third = readInt("Enter third number: ");
-	int x = (first)*(second)*(third);
-	int y = (first)*(second) + (first)*(third) + (second)*(third);
+	double x = (first)*(second)*(third);
+	double y = (first)*(second) + (first)*(third) + (second)*(third);
 	println("Your Number Is " + x/y + ".");
 	println(x);
 	println(y);
