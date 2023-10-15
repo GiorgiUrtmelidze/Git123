@@ -3,11 +3,13 @@ import acm.program.ConsoleProgram;
 public class problem17 extends ConsoleProgram {
 
 	public void run() {
-	int first = readInt("Enter first number: ");
-	int second = readInt("Enter second number: ");
-	int third = readInt("Enter third number: ");
-	double x = (first)*(second)*(third);
-	double y = (first)*(second) + (first)*(third) + (second)*(third);
-	println("Your Number Is " + x/y + ".");
+		double x = readInt("Enter your number: ");
+		if (x < 1) {
+			println("0 and x");
+		}
+		if (x > 1) {
+			for ( double x = x; x > 1; x-- );
+			print(x);
+		}
 		}	
 }
