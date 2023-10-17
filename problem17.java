@@ -4,8 +4,9 @@ public class problem17 extends ConsoleProgram {
 
 	public void run() {
 		double x = readDouble("Enter your number: ");
-		println(x);
-		
+		for (; x < 1; x--) {
+			println(x);
+		}
 		
 	}
 }
