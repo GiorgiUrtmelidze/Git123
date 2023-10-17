@@ -11,5 +11,8 @@ public class problem20 extends ConsoleProgram {
 		print("+");
 			}
 	print(n);
+	print("=");
+	print(z);
+	
 	}
 }
