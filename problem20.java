@@ -9,8 +9,7 @@ public class problem20 extends ConsoleProgram {
 	for (int i = 0; i < x - 1; ) {
 		print(n);
 		print("+");
-		
-	}
+			}
 	print(n);
 	}
 }
