@@ -3,16 +3,14 @@ import acm.program.ConsoleProgram;
 public class problem20 extends ConsoleProgram {
 
 	public void run() {
-	int x = readInt("Enter number: ");
-	int y = readInt("Enter second number: ");
-	if (x > y) {
-		print(x);
+	int n = readInt("Enter number: ");
+	int x = readInt("Enter second number: ");
+	int z = x*n;
+	for (int i = 0; i < x - 1; ) {
+		print(n);
+		print("+");
+		
 	}
-	if (x < y) {
-		print(y);
-	}
-	if (x == y) {
-		println(x);
-	}
+	print(n);
 	}
 }
