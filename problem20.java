@@ -9,6 +9,6 @@ public class problem20 extends ConsoleProgram {
 		int x = readInt("Enter number: ");
 		y = y + x;
 	}
-	print(y);
+		print(y);
 			}
 }
