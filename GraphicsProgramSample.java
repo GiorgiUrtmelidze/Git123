@@ -11,8 +11,8 @@ import acm.program.*;
 public class GraphicsProgramSample extends GraphicsProgram {
 	
 	public void run() {
-		double x1 = 200;
-		double y1 = 200;
+		double x1 = 100;
+		double y1 = 100;
 		GRect n1 = new GRect(x1,y1,50,50);
 		for (int i = 0; i < 5; i++) {
 			add(n1);
