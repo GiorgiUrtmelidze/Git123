@@ -7,7 +7,7 @@ public class problem4 extends ConsoleProgram {
 		double a = readInt("Enter first number: ");
 		double b = readInt("Enter second number: ");
 		double cSquared = Math.pow(a, 2) + Math.pow(b, 2);
-		double c = Math.pow(cSquared, 0.5);
+		double c = Math.sqrt(cSquared);
 		println(c);
 		
 	}
