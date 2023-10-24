@@ -1,6 +1,6 @@
 import acm.program.ConsoleProgram;
 
-public class problem4 extends ConsoleProgram {
+public class problem1 extends ConsoleProgram {
 
 	public void run() {
 		println("This program calculates the hypotenuse with Pythagorean Theorem");
