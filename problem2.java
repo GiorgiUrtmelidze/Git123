@@ -15,6 +15,7 @@ public class problem2 extends GraphicsProgram {
 		firstCircle.setColor(Color.red);
 		add(firstCircle);
 		
+//		Second Circle (white)
 //		If 2.54cm = 72 pixel
 //		Then Z cm = (72*Z)/2.54 pixel
 		double r2 = (72 * 1.65) / 2.54;
@@ -25,7 +26,13 @@ public class problem2 extends GraphicsProgram {
 		secondCircle.setColor(Color.white);
 		add(secondCircle);
 		
-		
-	  
-	}
+//		Third Circle
+		double r3 = (72 * 0.76) / 2.54;
+		double x3 = getWidth() / 2 - r3;
+		double y3 = getHeight() / 2 - r3;
+		GOval thirdCircle = new GOval (x3, y3, 2*r3, 2*r3);
+		thirdCircle.setFilled (true);
+		thirdCircle.setColor(Color.red);
+		add(thirdCircle);
+			}
 }
