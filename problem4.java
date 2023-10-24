@@ -3,10 +3,12 @@ import acm.program.ConsoleProgram;
 public class problem4 extends ConsoleProgram {
 
 	public void run() {
-		int n = readInt("Enter number: ");
-		for (int i = 0; i <= n - 1; i++ ) {
-			println("Hello" + i + ".");
-		}
+		println("This program calculates the hypotenuse with Pythagorean Theorem");
+		double a = readInt("Enter first number: ");
+		double b = readInt("Enter second number: ");
+		double cSquared = Math.pow(a, 2) + Math.pow(b, 2);
+		double c = Math.pow(cSquared, 1/2);
+		
 	}
 }
 
