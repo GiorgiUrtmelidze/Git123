@@ -1,24 +1,16 @@
-import acm.program.ConsoleProgram;
+import java.awt.Color;
 
-public class problem2 extends ConsoleProgram {
+import acm.graphics.GOval;
+import acm.program.GraphicsProgram;
 
+public class problem2 extends GraphicsProgram {
 	public void run() {
-		println("Hello");
-		int numberOne = readInt("Enter First Number: ");
-		int numberSecond = readInt("Enter Second Number: ");
-		int total = ((numberOne + numberSecond)/2 );
-		double y = total + 0.5;
-		if ((numberOne + numberSecond)%2==0) {
-		println("The answer is ->" + total + "."); 
-		} else {
-			println("The answer is ->" + y + ".");
-		}
-		
-	
+		int x1 = getWidth() / 2 - 72;
+		int y1 = getHeight() / 2 - 72;
+		GOval firstCircle = new GOval (x1, y1, 144, 144);
+		firstCircle.setFilled (true);
+		firstCircle.setColor(Color.red);
+		add(firstCircle);
+	  
 	}
-
-
-
-	
-	
 }
