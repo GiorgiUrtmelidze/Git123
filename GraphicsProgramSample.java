@@ -17,7 +17,7 @@ public class GraphicsProgramSample extends GraphicsProgram {
 		for (int i = 0; i < 5; i++) {
 			add(n1);
 			x1 = x1 + 80;
-			add(n1,x1);
+			add(n1,x1,y1);
 		}
 		
 		
