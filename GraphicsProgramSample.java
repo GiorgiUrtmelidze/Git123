@@ -13,11 +13,14 @@ public class GraphicsProgramSample extends GraphicsProgram {
 	public void run() {
 		double x1 = 100;
 		double y1 = 100;
-		GRect n1 = new GRect(x1,y1,50,50);
+		
+	
 		for (int i = 0; i < 5; i++) {
+			GRect n1 = new GRect(x1,y1,50,50);
 			add(n1);
 			x1 = x1 + 80;
-			add(n1,x1,y1);
+			
+		
 		}
 		
 		
