@@ -16,6 +16,7 @@ public class problem21 extends GraphicsProgram {
 		double x2 = getWidth();
 		double y2 = y1;
 		GLine hLine = new GLine (x1, y1, x2, y2);
+		add(hLine);
 	}
 }
 	
