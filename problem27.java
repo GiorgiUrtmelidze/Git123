@@ -6,6 +6,7 @@ public class problem27 extends ConsoleProgram {
 		int n = readInt("Enter number: ");
 		int m = readInt("Enter second number: ");
 		int nToThePowerM = calculate(n, m);
+		println(nToThePowerM);
 	}
 
 	private int calculate(int n, int m) {
