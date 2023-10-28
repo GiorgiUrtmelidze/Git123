@@ -7,6 +7,9 @@ public class problem28 extends ConsoleProgram {
 		int even = 0;
 		for (; ;) {
 			int n = readInt("Enter your number: ");
+			if ( n%1 != 0 && n < -1) {
+				println("Type only integers and then -1");
+			}
 			if (n%2 == 0) {
 				even += 1;
 			} else {
