@@ -16,6 +16,6 @@ public class problem24 extends ConsoleProgram {
 		}
 		
 		
-		return calculation(n);
+		return numberOfDivisors;
 	}
 }
