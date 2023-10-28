@@ -11,9 +11,9 @@ public class problem29 extends ConsoleProgram {
 	private int calculate(int n) {
 		int a = 1;
 		int b = 2;
-		int fibonacciNumber = 0;
-		for (; n > 2; n--) {
-			fibonacciNumber += a + b;
+		int fibonacciNumber = 3;
+		for (; n > 3; n--) {
+			fibonacciNumber += b;
 		}
 		
 		return fibonacciNumber;
