@@ -10,7 +10,7 @@ public class problem24 extends ConsoleProgram {
 
 	private int calculation(int n) {
 		int numberOfDivisors = 0;
-		for (int i = 1; i < n; i++) {
+		for (int i = 1; i <= n; i++) {
 			if (n%i == 0) {
 				numberOfDivisors += 1;
 			}
