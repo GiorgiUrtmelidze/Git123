@@ -12,7 +12,10 @@ public class problem22 extends GraphicsProgram {
 				GRect square = new GRect(x, y, sqSize, sqSize);
 				add(square);
 				if (i%2 == 0 && j%2 != 0) {
-				square .setFilled(true);
+				square.setFilled(true);
+				}
+				if (i%2 != 0 && j%2 == 0) {
+				square.setFilled(true);
 				}
 			}
 		}
