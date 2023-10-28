@@ -6,7 +6,6 @@ public class problem22 extends GraphicsProgram {
 		public void run() {
 			colorChessBoard();
 		}
-			
 		private void colorChessBoard() {
 			double sqSize = getHeight() / NUM_SQUARES;
 			for (int i = 0; i < NUM_SQUARES; i++) {
