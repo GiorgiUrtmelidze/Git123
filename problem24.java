@@ -12,7 +12,7 @@ public class problem24 extends ConsoleProgram {
 		int numberOfDivisors = 0;
 		for (int i = 1; i < n; i++) {
 			if (n%i == 0) {
-				numberOfDivisors += i;
+				numberOfDivisors += 1;
 			}
 		}
 		
