@@ -1,6 +1,6 @@
 import acm.program.ConsoleProgram;
 
-public class problem27 extends ConsoleProgram {
+public class problem28 extends ConsoleProgram {
 
 	public void run() {
 		println("This program only calculates n^m only for positive n and m integers");
