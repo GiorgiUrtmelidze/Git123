@@ -5,6 +5,7 @@ public class problem24 extends ConsoleProgram {
 	public void run() {
 		int n = readInt("Enter number: ");
 		int numberOfDivisors = calculation(n);
+		println(numberOfDivisors);
 	}
 
 	private int calculation(int n) {
