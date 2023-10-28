@@ -13,7 +13,7 @@ public class problem28 extends ConsoleProgram {
 			if (n%2 == 0 && n > 0) {
 				even += 1;
 			} 
-			if (n%2 != 0 && n > 0) {
+			if (n%2 == 1 && n > 0) {
 				odd += 1;
 			}
 			if (n == -1) {
