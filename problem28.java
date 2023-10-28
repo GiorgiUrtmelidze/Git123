@@ -17,7 +17,7 @@ public class problem28 extends ConsoleProgram {
 				odd += 1;
 			}
 			if (n == -1) {
-				println("Quantity of odd numbers : " +( odd - 1 ));
+				println("Quantity of odd numbers : " +( odd  ));
 				println("Quantity of even numbers : " +even);
 				break;
 			}
