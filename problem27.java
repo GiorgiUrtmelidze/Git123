@@ -12,7 +12,7 @@ public class problem27 extends ConsoleProgram {
 	private int calculate(int n, int m) {
 		int nToThePowerM = n;
 		for (int i =0; i < m; i++) {
-			nToThePowerM *= n;
+			nToThePowerM *= n-1;
 		}
 		return nToThePowerM;
 	}
