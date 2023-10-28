@@ -10,9 +10,9 @@ public class problem27 extends ConsoleProgram {
 	}
 
 	private int calculate(int n, int m) {
-		int nToThePowerM = n;
+		int nToThePowerM = 1;
 		for (int i =0; i < m; i++) {
-			nToThePowerM *= n-1;
+			nToThePowerM *= n;
 		}
 		return nToThePowerM;
 	}
