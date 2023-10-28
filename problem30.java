@@ -3,20 +3,14 @@ import acm.program.ConsoleProgram;
 public class problem30 extends ConsoleProgram {
 
 	public void run() {
-		int n = readInt("Enter your number: ");
-		int fibonacciNumber = calculate(n);
-		println(fibonacciNumber);
-	}
-
-	private int calculate(int n) {
-		int a = 1;
-		int b = 2;
-		int x = 3;
-		for (; n > 2; n--) {
-			
+		int n = readInt("Enter number: ");
+		for(int i = 10; ; i= i*10) {
+			for (int x = 0; ; x++) {
+				if (x%10 == 0 && n%x < i) {
+					println(n-x);
+				}
+			}
 			
 		}
-		
-		return fibonacciNumber;
 	}
 }
