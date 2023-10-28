@@ -13,8 +13,8 @@ public class problem28 extends ConsoleProgram {
 				odd += 1;
 			}
 			if (n == -1) {
-				println(odd);
-				println(even);
+				println("Quantity of odd numbers" +odd);
+				println("Quantity of even numbers" +even);
 				break;
 			}
 		}
