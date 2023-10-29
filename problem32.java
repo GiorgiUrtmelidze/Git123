@@ -5,7 +5,7 @@ public class problem32 extends ConsoleProgram {
 	public void run() {
 	
 		int x = 0;
-		int i = 1;
+		int i = 2;
 		for (; i <= 1000000; i++) {
 			for (int j = 1; j <= i; j++) {
 				if (i%j == 0) {
