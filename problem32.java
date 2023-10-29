@@ -14,8 +14,8 @@ public class problem32 extends ConsoleProgram {
 			}
 			if (x == 2) {
 				println(i);
-				x = 0;
 			}
+			x = 0;
 		}
 		
 	}
