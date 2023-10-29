@@ -5,8 +5,8 @@ public class problem32 extends ConsoleProgram {
 	public void run() {
 	
 		int x = 0;
-		int i = 0;
-		for (int i = 1; i <= 1000000; i++) {
+		int i = 1;
+		for (; i <= 1000000; i++) {
 			for (int j = 1; j <= i; j++) {
 				if (i%j == 0) {
 					x += 1;
