@@ -2,7 +2,7 @@ import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
 public class problem22 extends GraphicsProgram {
-	private static final int NUM_SQUARES = 100;
+	private static final int NUM_SQUARES = 1000;
 		public void run() {
 			colorChessBoard();
 		}
