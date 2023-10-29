@@ -12,6 +12,8 @@ public class problem31 extends ConsoleProgram {
 		}
 		if ( d == 2) {
 			println("Your number is prime");
+		} else {
+			println("Your number is not prime");
 		}
 	}
 }
