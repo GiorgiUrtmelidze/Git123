@@ -11,10 +11,11 @@ public class problem32 extends ConsoleProgram {
 				if (i%j == 0) {
 					x += 1;
 				}
+				if (x == 2) {
+					println(i);
+				}
 			}
 		}
-		if (x == 2) {
-			println(i);
-		}
+		
 	}
 }
