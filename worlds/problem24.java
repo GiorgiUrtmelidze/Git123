@@ -1,3 +1,4 @@
+package worlds;
 import acm.program.ConsoleProgram;
 
 public class problem24 extends ConsoleProgram {
